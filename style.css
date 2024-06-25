@@ -1,0 +1,404 @@
+body{
+
+  
+  background: rgba(33, 158, 204, 0.1);
+
+
+}  
+.container{
+width: 100%;
+margin: auto;
+
+}
+.boxone{
+  height: 200px;
+  width: 100%;
+  background: rgba(33, 158, 204, 0.1);
+
+}
+.boxtwo{
+
+  margin-top: -162px;
+}
+.header{
+display: flex;
+flex-direction: row;
+gap: 80px;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+margin-left: 1000px;
+}
+.img img{
+  width: 40px;
+  height: 40px;
+}
+.investment{
+  color:rgba(33, 158, 204, 1) ;
+}
+.TIB{
+background-color:var(--primary-base, rgba(33, 158, 204, 1));
+width: 392px;
+height: 194px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+gap: 5px;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+
+}
+.amt{
+display: flex;
+flex-direction: row;
+height: 78px;
+width: 279px;
+margin-left: 20px;
+margin-top: 30px;
+}
+.naira{
+width: 14px;
+font-size: 20px;
+}
+.fig{
+font-size: 52px;
+}
+.totalinvestmentbalance{
+margin-top: 30px;
+margin-left: 20px;
+}
+.TCB{
+background-color: white;
+width: 392px;
+height: 194px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+gap: 5px;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+
+}
+.s2b{
+gap: 30px;
+display: flex;
+flex-direction: row;
+margin-left: 120px;
+}
+.srcgh{
+  display: flex;
+  flex-direction: row;
+  width: 1,236px;
+  margin-left:  115px; 
+  gap: 562px;
+  margin-top: 20px;
+}
+.search input{
+  width: 505px;
+  height: 45px;
+  border-radius: 10px;
+border: 2px;
+align-items: center;
+padding: 2px;
+}
+.Add{
+  border-radius: 10px;
+  border: 0;
+  width: 169px;
+  background: var(--primary-base, rgba(33, 158, 204, 1));
+  align-items: center;
+  color: white;
+}
+.general{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+.fixeddepositbox{
+
+background-color: white; 
+  width: 292px;
+  height: 298px;
+}
+.countset{
+margin-top: 5px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.number{
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.fixeddeposit{
+  margin-top: 10px;
+  font-size: 24px;
+margin-left: 20px;
+margin-top: 20px;
+border-bottom: 1px solid rgba(33, 158, 204, 1);
+width: 213px;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Principal{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap:20px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.s4b{
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  margin-top: 30px;
+  margin-left:  115px; 
+}
+.text{
+  margin-left:  115px; 
+  font-size: 24px;
+}
+.gfbbox2{
+  display: flex;
+  flex-direction: column;
+  width: 555px;
+  background:  rgba(229, 229, 229, 0.29);
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+.title{
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bout{
+  margin-top: 20px;
+  font-size:14px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.features{
+  display: flex;
+  flex-direction: column;
+}
+.fheder{
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contentss{
+  display: flex;
+  flex-direction: column;
+}
+.invest{
+  width: 121px;
+  height: 40px;
+  border-radius: 5px;
+  background-color:rgba(33, 158, 204, 1) ;
+  color: white;
+  border: 0;
+  margin-left: 433px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.AddInvestment{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color:rgba(255, 255, 255, 1);
+  width: 689px;
+  margin-left: 375px;
+  margin-top: 122px;
+}
+.aibox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 410px;
+}
+.cnl{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.st{
+  display: flex;
+  flex-direction: column;
+  margin-left: 65px;
+  margin-top:30px;
+}
+.content{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.ai{
+  font-size: 18px;
+  margin-left: 65px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pop-up-note{
+  display: none;
+}
+
+
+.signup-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .img-section {
+    flex: 1;
+    background: url('path/to/Slides.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+.img-section img{
+  
+    height: 100vh;
+}
+  .form-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .formm{
+
+  }
+.form-section img{
+   height:  40.32px;
+   width: 207px;
+}
+  .form-section h2 {
+    margin-bottom: 20px;
+  }
+
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-section label {
+    margin-top: 10px;
+  }
+
+  .form-section input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .customer-type {
+    margin-top: 20px;
+  }
+
+  .customer-type label {
+    margin-right: 20px;
+  }
+
+  .form-section button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .form-section button:hover {
+    background-color: #0056b3;
+  }
+  .pop-up-container{
+    display: none;
+    display: none;
+    width: 100%;
+min-height: 100vh;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.701);
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+display: none;
+flex-direction: column;
+align-items: center;
+
+  }
+  .note {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 496px;
+    margin-left: 392px;
+    margin-top: 221px;
+}
+
+.pop-up-header {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.pop-up-sub-heading {
+    margin-top: 20px;
+}
+.pop-up-button{
+  margin-top: 80px;
+
+}
+.n{
+  width: 349px;
+  height: 128px;
+  gap: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+}
+.sub-header{
+  display: flex;
+  flex-direction: row;
+}
+.dif-color-text {
+  color: blue;
+}
+
+.pop-up-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 48px;
+}
+
+.pop-up-button:hover {
+  background-color: #0056b3;
+}
+@media screen and (max-width: 768px) {
+  .signup-container {
+    flex-direction: column;
+    height: auto; 
+  }
+
+  .img-section {
+    height: auto; 
+    display: none;
+  }
+}
